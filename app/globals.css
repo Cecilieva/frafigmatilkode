@@ -9,15 +9,29 @@
  */
 :root {
   /* Color */
+  --color-primary: #ff3d8b;
+  --color-secondary: #473dff;
+  --color-neutral-white: #ffffff;
+  --color-neutral-grey-200: #d6d6d0;
+  --color-neutral-grey-900: #16161a;
 
   /* Typography – the font itself is loaded in app/layout.js */
   --font-family-primary: var(--font-inter), sans-serif;
+  --font-size-md: 18px;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
 
   /* Spacing: gaps and paddings */
+  --paddings-sm: 20px;
+  --number: 30px;
 
   /* Sizes */
+  --btn-height-md: 46px;
 
   /* Border radius */
+  --border-radius-md: 24px;
+  --border-radius-full: 9999px;
 }
 
 * {
